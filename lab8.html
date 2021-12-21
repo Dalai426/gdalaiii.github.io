@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab8</title>
+	<style type="text/css" media="screen">
+		.new { text-shadow:2px 5px 5px deepskyblue;}
+		.div1{ display: inline-block;
+			width: 200px;
+		height: 200px;
+		border: 3px;
+		border-style: solid;
+		background-color: #DC143C;
+		border-radius: 10px;
+		margin-left: 100px;
+		text-align: center;
+	    }
+		.div2{ display: inline-block;
+		 width: 200px;
+		height: 200px;
+		border: 3px;
+		border-style: solid;
+		background-color: #008B8B;
+		border-radius: 50px;
+		margin-left: 100px; 
+	    text-align: center;}
+		.div3{ display: inline-block;
+			width: 200px;
+		height: 200px;
+		border: 3px;
+		border-style: solid;
+		background-color: #556B2F;
+		border-radius: 100px; 
+		margin-left: 100px;
+	    text-align: center;}
+	.text{ font-size: 20px;
+		   font-weight: bold;
+	       padding-top: 70px; }
+	.div4{  display: inline-block;
+			width: 200px;
+		height: 200px;
+	    box-shadow: 15px 15px 20px dimgrey;
+		background-color: #CD5C5C;
+	
+		margin-left: 100px;
+		text-align: center;
+	    }
+		.div5{ display: inline-block;
+		 width: 200px;
+		height: 200px;
+		box-shadow: -15px -15px 30px dimgrey;
+	    background-color: #ADD8E6;
+		margin-left: 100px; 
+	    text-align: center;}
+		.div6{ display: inline-block;
+			width: 200px;
+		height: 200px;
+	    box-shadow: 15px 15px 10px dimgrey;
+		background-color: #F0E68C;
+	
+		margin-left: 100px;
+	    text-align: center;}
+	    .div7
+	    {
+	    	width: 500px;
+	    	height: 500px;
+	    	margin-top: 50px;
+	    	margin-left: 100px;
+	        background: linear-gradient(45deg, red 16%,  orange 32%, yellow 48%, green 64%, blue 80%, indigo 100%);
+
+	    }
+	    .div8
+	    {
+	    	width: 500px;
+	    	height: 300px;
+	    	margin-top: 50px;
+	    	margin-left: 100px;
+	        background: radial-gradient(ellipse at left bottom, #008B8B 5%, #FFEBCD 50%,#F0FFFF 100%);}
+	     .sd {
+	     	width: 400px;
+	     	height: 400px;
+	     	  margin-top: 50px;
+           margin-left: 100px;
+	     }
+	     .sd .div9
+	     {
+           width: 0px;
+           height: 0px;
+          position: relative;
+           background-color: #B0C4DE;
+           animation-name: animate;
+           animation-timing-function: linear;
+           animation-duration:5s;
+           animation-delay: 0s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+	     }
+	     @keyframes animate { 20%{ width: 200px; height: 100px; }
+	                  40%{ left: 200px; }
+                      60%{ top: 200px; }
+                      100%{width:0px; height: 0px;}
+	     }
+	     .boxskew .textbox {
+	     	margin-top: 50px;
+	     	margin-left: 100px;
+	     	background: lightgreen ;
+	     	height: 100px;
+	     	width: 200px;
+	     	padding: 25px 0;
+	     	text-align: center;
+	     	font-size: 250%;
+	     	border: 3px solid darkgreen;
+	     	border-radius: 15px;
+	     	transform: skewX(-45deg);
+	     	animation: skew 3s infinite  alternate; }
+
+	     @keyframes skew {
+	     	from{transform: skewX(0deg);}
+	     	25% {transform: skewY(-30deg);}
+	        75% {transform: skewX(30deg);}
+	        to {transform: skewX(0);}
+	    }
+        
+        #cover { position: relative;
+                 margin: 100px auto;
+                 display: block; }  
+        #cover img{position: absolute;
+                   left: 0;
+                   transition-duration:3s;
+                   transition-timing-function: linear; }
+    #cover:hover .top3  { 
+         opacity: 0;
+        transition-duration:0.7s;
+        } 
+        #cover:hover .top2 { 
+         opacity: 0;
+         transition-duration: 1.4s;
+          
+        } 
+           #cover:hover .top1 { 
+         opacity: 0;
+         transition-duration: 2.1s;
+        
+        } 
+           #cover:hover .top { 
+         opacity: 0;
+         transition-duration: 2.8s;
+        
+        } 
+
+
+
+       .writeln {
+        	display: block; 
+        	margin-top: 550px;
+        	column-count: 2;
+        	column-gap: 50px;
+        	column-rule-width: 5px;
+        	column-rule-color: blue;
+        	column-rule-style: outset;
+        	margin-right: 50px;
+        	margin-left: 50px;
+        }    
+ 
+         
+      .flexbox {
+      	display: flex;
+      	width: 800px;
+      	height: 550px;
+      	background-color:yellow;
+      	margin-left: 50px;
+      	padding-top: 10px;
+      	flex-direction: row-reverse;
+      	flex-wrap: wrap-reverse;
+      	flex-flow: row wrap;
+      	justify-content: center;
+
+      }
+      .flexbox1 {
+      	display: flex;
+      	flex-direction: row-reverse;
+      	flex-wrap: wrap-reverse;
+      	flex-flow: row wrap;
+      	justify-content: center;
+
+      }
+      .flexbox .box1 {
+
+      	width: 200px;
+      	height: 150px;
+      	background-color:blue;
+      	margin: 20px;
+      
+      }
+      .flexbox .box2 {
+      	width: 200px;
+      	height: 200px;
+      	background-color:#F08080;
+      	margin: 20px;
+      }
+      .flexbox .box3 {
+      	width: 200px;
+      	height: 150px;
+      	background-color:#BA55D3;
+      	margin: 20px;
+      }
+         .flexbox .box4 {
+
+      	width: 200px;
+      	height: 200px;
+      	background-color:blue;
+      	margin: 20px;
+        
+      }
+      .flexbox .box5 {
+      	width: 200px;
+      	height: 200px;
+      	background-color:#F08080;
+      	margin: 20px;
+      }
+      .flexbox .box6 {
+      	width: 200px;
+      	height: 200px;
+      	background-color:#BA55D3;
+      	margin: 20px;
+      }
+      .inn {
+      	display: flex;
+      	font-style: bold;
+      	font-size: 30px;
+      	margin-top: 10px;
+      }
+      .photos{
+      	width: 400px;
+      	height: 300px;
+      	margin-top: 100px;
+      	margin-left: 300px;
+
+      }
+    
+     
+      .photos .photo1 {
+      	display: inline;
+      	width: 200px;
+      	height: 200px;
+      	margin: 0;
+      }
+     .photos:hover .photo1 { transform: scale(120%);
+     	margin: 20px;
+
+
+     }
+     .last { column-count: 4;
+     	column-gap: 10px;
+     	column-rule: 1px outset black;
+     	margin-top: 20px;
+
+     }
+     @media handheld and (max-width: 480px),
+     screen and ( max-device-width:480px),
+     screen and ( max-width: 480px){
+     	.last {  column-count: 1;
+
+     	}
+     }
+     @media  only screen and (min-width: 481px) and 
+      ( max-width:481px)
+ and ( max-width: 1024px){
+     	.last {  column-count: 1;
+
+     	}
+     }
+
+     	</style>
+     
+        
+</head>
+<body>
+<p class="new">New features in Css3</p>
+<div class="div1"><p class="text">border riadus: 10px;</p></div>
+<div class="div2"><p class="text">border riadus: 50px;</p></div>
+<div class="div3"><p class="text">border riadus: 100px;</p></div>
+<div style=" margin-top: 50px;">
+<div class="div4"><p class="text"></p></div>
+<div class="div5"><p class="text"></p></div>
+<div class="div6"><p class="text"></p></div>
+<div class="div7"></div>
+<div class="div8"></div>
+<div class="sd"><div class="div9"></div></div>
+
+
+<div class="boxskew">
+	<div class="textbox">Skewing Text</div>
+</div>
+</div>
+
+
+<div id="cover">
+	<img class="bottom" src="https://www.dispatchreview.com/wp-content/uploads/2016/03/Galaxy.jpg" width="600px" height="400px">
+	<img class="top"       src="https://www.100hdwallpapers.com/wallpapers/2880x1800/spiral_galaxy-widescreen_wallpapers.jpg" width="600px" height="400px">
+	<img class="top1"  src="https://th.bing.com/th/id/R.f2b2abe6cee59cff2a6b4f2609158e5c?rik=0bWjZAdgl00ggA&pid=ImgRaw&r=0" width="600px" height="400px">
+    <img class="top2"    src="https://th.bing.com/th/id/R.5c27d38160c774b5507e7c7c51966303?rik=mKpgA1NmfmKyiA&pid=ImgRaw&r=0" width="600px" height="400px">
+    <img class="top3"   src="https://th.bing.com/th/id/R.2e662e075065c76e40e3f5c5fdcc865f?rik=jzLZ%2fek5D1t9zw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f266412-artwork-digital_art-space-galaxy-stars-nebula.jpg&ehk=Lu7yVhxdzojyPIjO1riKin7DBz76dPGKYKAGZy48KKM%3d&risl=&pid=ImgRaw&r=0" width="600px" height="400px">	
+</div>
+
+<p class="writeln">Write using Markdown - without having to remember the markup. With Texts you can apply styles to words or paragraphs and immediately see the results. Your images and tables are displayed directly within Texts.Use Texts to create structured documents. You set your titles and headings, and they will stay in place if you export your document to another format.Content written in Texts can be easily published as a blog on GitHub Pages, with math, tables, footnotes etc.Developed to cover all your needs: formulas and footnotes, bibliography and citations, tables and links.Writing your documents in Texts gives you a lot of flexibility. You can easily convert your words into clean HTML5, professional PDFs, ePub or Word format, or even a presentation.</p>
+
+
+<div class="flexbox">
+	<div class="bichver"><h2>Flexbox</h2></div>
+    <div class="flexbox1">
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+	<div class="box5"></div>
+	<div class="box6"></div>
+	</div>
+	
+</div>
+
+<table border="0" class="photos">
+	<tr>
+		<td> <img src="https://th.bing.com/th/id/R.3793aeeee48e67c49a6d0e0f6de0ccc5?rik=RYYokA5fRRJIdQ&pid=ImgRaw&r=0" class="photo1"> </td>
+		<td> <img src="https://th.bing.com/th/id/R.4ef8bdd7d2feb16bccfc2f14cc12f2bd?rik=A0fuEW%2fJz0NveQ&riu=http%3a%2f%2fdreamicus.com%2fdata%2fvalley%2fvalley-04.jpg&ehk=23RdRjRcpIrTJTIVIj8YwfAyzgu3arJAvdDmK%2fwJ2jo%3d&risl=&pid=ImgRaw&r=0" class="photo1">  </td>
+	</tr>
+	<tr>
+		<td> <img src="https://th.bing.com/th/id/OIP.neTp253amaORNv-lj2e9-AHaE8?pid=ImgDet&rs=1" class="photo1"></td>
+		<td>    <img src="https://th.bing.com/th/id/R.d6ff9c3370d7117c475ae5eebfdf3ac5?rik=0W7E7Z6sUk4V2w&pid=ImgRaw&r=0" class="photo1"> </td>
+	</tr>
+
+</table>
+   
+
+
+<p class="last">CSS was first proposed by Håkon Wium Lie on October 10, 1994.[22] At the time, Lie was working with Tim Berners-Lee at CERN.[23] Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1)[24] being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.[25]
+
+Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.[26] One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.[26]
+
+As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,[27] made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.[23] Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.[27]
+
+Improving web presentation capabilities was a topic of interest to many in the web community and nine different style sheet languages were proposed on the www-style mailing list.[26] Of these nine proposals, two were especially influential on what became CSS: Cascading HTML Style Sheets[22] and Stream-based Style Sheet Proposal (SSP).[25][28] Two browsers served as testbeds for the initial proposals; Lie worked with Yves Lafon to implement CSS in Dave Raggett's Arena browser.[29][30][31] Bert Bos implemented his own SSP proposal in the Argo browser.[25] Thereafter, Lie and Bos worked together to develop the CSS standard (the 'H' was removed from the name because these style sheets could also be applied to other markup languages besides HTML).[23]
+
+Lie's proposal was presented at the "Mosaic and the Web" conference (later called WWW2) in Chicago, Illinois in 1994, and again with Bert Bos in 1995.[23] Around this time the W3C was already being established, and took an interest in the development of CSS. It organized a workshop toward that end chaired by Steven Pemberton. This resulted in W3C adding work on CSS to the deliverables of the HTML editorial review board (ERB). Lie and Bos were the primary technical staff on this aspect of the project, with additional members, including Thomas Reardon of Microsoft, participating as well. In August 1996, Netscape Communication Corporation presented an alternative style sheet language called JavaScript Style Sheets (JSSS).[23] The spec was never finished, and is deprecated.[32] By the end of 1996, CSS was ready to become official, and the CSS level 1 Recommendation was published in December.
+
+Development of HTML, CSS, and the DOM had all been taking place in one group, the HTML Editorial Review Board (ERB). Early in 1997, the ERB was split into three working groups: HTML Working group, chaired by Dan Connolly of W3C; DOM Working group, chaired by Lauren Wood of SoftQuad; and CSS Working group, chaired by Chris Lilley of W3C.
+
+The CSS Working Group began tackling issues that had not been addressed with CSS level 1, resulting in the creation of CSS level 2 on November 4, 1997. It was published as a W3C Recommendation on May 12, 1998. CSS level 3, which was started in 1998, is still under development as of 2014.
+
+In 2005, the CSS Working Groups decided to enforce the requirements for standards more strictly. This meant that already published standards like CSS 2.1, CSS 3 Selectors, and CSS 3 Text were pulled back from Candidate Recommendation to Working Draft level.</p>
+
+</body>
+</html>

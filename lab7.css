@@ -1,0 +1,127 @@
+body 
+{
+	background: grey;
+}
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: relative;
+	left: 20px;
+	top: 20px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+} */
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: relative;
+	right: 20px;
+	bottom: 20px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}*/
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: absolute;
+	bottom: 50px;
+	right: 90px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+} */
+
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: absolute;
+	bottom: 57px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}*/
+
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: absolute;
+	top: 5px;
+	left: 15px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}*/
+
+/*.out
+{
+position: static;
+background-color: green;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+margin-top: 100px;
+
+}
+.out .in
+{
+	position: fixed;
+	top: 80px;
+	right: 90px;
+    width: 100px;
+	height: 100px;
+	background-color: red;
+	
+}*/
+

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=PT+Serif:ital,wght@1,700&family=Yaldevi:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Open+Sans+Condensed:ital,wght@1,300&family=PT+Serif:ital,wght@1,700&family=Yaldevi:wght@300&display=swap');
+#backround { 
+             background-image: url('https://cdn.shopify.com/s/files/1/1834/0943/products/92281349-pink-salt-background-pink-himalayan-salt-background_1400x.jpg?v=1554259508');}
+#spatial{ font-family: 'PT Serif', serif;
+         color: white;
+         font-size: 60px;}
+#button { background-color: deeppink;
+          text-align: center; 
+          border: 0px;
+          color: white;
+          width: 150px;
+          height: 40px;
+
+         }
+#create{ color: white;
+         font-family: 'PT Serif', serif;
+          font-size: 20px; }
+
+
+
+.first {font-family: 'Yaldevi', sans-serif;
+        color: black;
+        word-break: keep-all;
+        font-size: 40px;
+        padding-left: 100px;}
+.hoidtaliintexts {font-family: 'Yaldevi', sans-serif;
+                  font-size: 15px;}
+.second {font-family: 'Yaldevi', sans-serif;
+         word-break: keep-all;
+         font-size: 15px;
+         text-align: right;
+         padding-left: 400px;}
+.lastrow { background-color: grey;
+            font-family: 'Ubuntu', sans-serif;
+            color: deeppink;
+            font-size: 15px;}
+#duguizurag { border-radius: 50%;
+              width: 200px;
+              height: 200px;
+              padding-left: 70px;
+              padding-right: 70px;
+             
+            
+              filter: grayscale(100%);
+              }
+#center { text-align: center;}
+table { border-spacing: 10px; }

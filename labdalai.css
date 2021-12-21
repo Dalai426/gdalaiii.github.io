@@ -1,0 +1,201 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.longbox
+{   position: relative;
+	width: 1202px;
+	height: 150px;
+	margin: 240px auto;
+	
+}
+ .longbox  .box1
+ {  
+ 	position: relative;
+ 	width: 170px;
+ 	padding-top: 30px;
+ 	padding-bottom:30px;
+ 	float: left;
+ 	margin: 15px;
+ 	background: #adadad;
+ 	color: white; 
+ 	text-align: center;
+ 	font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+ .longbox  .box1:hover
+ {
+ 	background:#575757;
+ 	transition-duration: 0.5s;
+ }
+
+ .longbox  .box2
+ {  
+ 	position: relative;
+ 	width: 170px;
+ 	padding-top: 30px;
+ 	padding-bottom:30px;
+ 	float: left;
+ 	margin: 15px;
+ 	background: #575757;
+ 	color: #000000; 
+ 	text-align: center;
+ 	font-size: 30px;
+  transition-duration: 0.5s;
+}
+
+ .longbox  .box2:hover
+ {
+ 	color:#ffffff;
+ 	transition-duration: 0.5s;
+ }
+
+
+  .longbox  .box3
+ {  
+ 	position: relative;
+ 	width: 170px;
+ 	padding-top: 30px;
+ 	padding-bottom:30px;
+    
+ 	float: left;
+ 	margin: 15px;
+ 	background: #575757;
+ 	color: #ffffff; 
+ 	text-align: center;
+ 	font-size: 30px;
+ 	transform: 0.5s;
+ 	transition: transform 0.5s;
+}
+
+ .longbox  .box3:hover
+ {  
+   transform: scale(1.5);
+   transition: transform 0.5s;
+ }
+
+ .longbox  .box4
+ {  
+ 	position: relative;
+ 	width: 170px;
+ 	padding-top: 30px;
+ 	padding-bottom:30px;
+    
+ 	float: left;
+ 	margin: 15px;
+ 	background: #575757;
+ 	color: #ffffff; 
+ 	text-align: center;
+ 	font-size: 30px;
+ 	transform: 0.5s;
+ 	transition: transform 0.5s;
+}
+
+ .longbox  .box4:hover
+ {  
+   transform: scale(0.7);
+   transition: transform 0.5s;
+ }
+
+
+ .longbox  .box5
+ {  
+ 	position: relative;
+ 	width: 170px;
+ 	padding-top: 30px;
+ 	padding-bottom:30px;
+    float: left;
+ 	margin: 15px;
+ 	background: #575757;
+ 	color: #ffffff; 
+ 	text-align: center;
+ 	font-size: 30px;
+ 	transform: 0.5s;
+ 	transition: transform 0.5s;
+}
+
+ .longbox  .box5:hover
+ {  
+   transform: rotate(-20deg);
+   transition: transform 0.5s;
+ }
+
+
+
+ .longbox  .box6container 
+ 	{
+    position: relative;
+ 	width: 170px;
+ 	height: 94px;
+  float: left;
+ 	margin: 15px;
+  overflow: hidden;
+  border: 1px solid #575757; 
+
+
+    }
+
+
+ .longbox  .box6container .box6r
+
+ {  
+ 	position: absolute;
+ 	width: 170px;
+  height: 94px;
+ 	background: white; 
+}
+
+
+.longbox  .box6container .box6
+
+ {  
+ 	position: absolute;
+ 	width: 170px;
+  height: 94px;
+  margin-left: 170px;
+ 	background: #575757;
+ 	color: white ; 
+  transition:transform 0.9s;
+}
+
+.longbox  .box6container:hover .box6
+
+{   transform:translate(-170px);
+    transition:transform 0.9s;
+}
+
+.longbox  .box6container .text
+{   
+    position: relative;
+    font-size: 30px;
+    color: #575757;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+   transition-duration: 0.9s;
+}
+
+.longbox  .box6container:hover .text
+{
+  transition-duration: 0.9s;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
